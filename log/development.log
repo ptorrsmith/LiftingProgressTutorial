@@ -118,3 +118,1099 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 11ms (Views: 4.3ms | ActiveRecord: 0.0ms)
 
 
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (8.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+Migrating to CreateLifts (20181111040955)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "lifts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "date" date, "liftname" varchar, "ismetric" boolean, "weightlifted" integer, "repsperformed" integer, "onerm" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20181111040955_create_lifts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181111040955"]]
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (7.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[36mActiveRecord::InternalMetadata Create (0.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-11-11 04:14:10.768898"], ["updated_at", "2018-11-11 04:14:10.768898"]]
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+Started GET "/" for 121.99.224.148 at 2018-11-11 04:37:58 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 14ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/rake-12.3.1/lib/rake/task.rb:271
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mLift Create (2.4ms)[0m  [1m[32mINSERT INTO "lifts" ("date", "liftname", "ismetric", "weightlifted", "repsperformed", "onerm", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["date", "2018-11-11"], ["liftname", "First lift"], ["ismetric", 0], ["weightlifted", 220], ["repsperformed", 1], ["onerm", 1], ["created_at", "2018-11-11 04:42:21.371024"], ["updated_at", "2018-11-11 04:42:21.371024"]]
+  [1m[35m (8.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mLift Load (0.3ms)[0m  [1m[34mSELECT  "lifts".* FROM "lifts" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 121.99.224.148 at 2018-11-11 05:02:26 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mLift Load (0.5ms)[0m  [1m[34mSELECT  "lifts".* FROM "lifts" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 121.99.224.148 at 2018-11-11 05:09:28 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 14ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 121.99.224.148 at 2018-11-11 05:09:31 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:09:53 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+Completed 406 Not Acceptable in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (LiftsController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+react-rails (2.4.7) lib/react/rails/controller_lifecycle.rb:31:in `use_react_component_helper'
+activesupport (5.2.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+activesupport (5.2.1) lib/active_support/callbacks.rb:136:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:11:37 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+Completed 406 Not Acceptable in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (LiftsController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+react-rails (2.4.7) lib/react/rails/controller_lifecycle.rb:31:in `use_react_component_helper'
+activesupport (5.2.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+activesupport (5.2.1) lib/active_support/callbacks.rb:136:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:11:51 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by LiftsController#index as HTML
+Completed 406 Not Acceptable in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (LiftsController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+react-rails (2.4.7) lib/react/rails/controller_lifecycle.rb:31:in `use_react_component_helper'
+activesupport (5.2.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+activesupport (5.2.1) lib/active_support/callbacks.rb:136:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 121.99.224.148 at 2018-11-11 05:14:00 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 11ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:14:02 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+Completed 406 Not Acceptable in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (LiftsController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+react-rails (2.4.7) lib/react/rails/controller_lifecycle.rb:31:in `use_react_component_helper'
+activesupport (5.2.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+activesupport (5.2.1) lib/active_support/callbacks.rb:136:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.5.5) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:14:26 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 5332ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'components' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/config
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/images
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actioncable-5.2.1/lib/assets/compiled
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/activestorage-5.2.1/app/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actionview-5.2.1/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/node_modules
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/react-source/development
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/popper_js-1.14.3/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     
+    11:     <!-- application.html.erb in Head tag below turbolinks -->
+  
+app/assets/javascripts/application.js:21
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__2112245065232897738_69970755525220'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:14:41 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 245ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'components' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/config
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/images
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actioncable-5.2.1/lib/assets/compiled
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/activestorage-5.2.1/app/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actionview-5.2.1/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/node_modules
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/react-source/development
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/popper_js-1.14.3/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     
+    11:     <!-- application.html.erb in Head tag below turbolinks -->
+  
+app/assets/javascripts/application.js:21
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3042524680477869796_30832780'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:20:04 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'components' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/config
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/images
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actioncable-5.2.1/lib/assets/compiled
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/activestorage-5.2.1/app/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actionview-5.2.1/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/node_modules
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/react-source/development
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/popper_js-1.14.3/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     
+    11:     <!-- application.html.erb in Head tag below turbolinks -->
+  
+app/assets/javascripts/application.js:21
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3042524680477869796_70000946346400'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:21:21 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+Started GET "/" for 121.99.224.148 at 2018-11-11 05:21:31 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:21:31 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'components' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/config
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/images
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actioncable-5.2.1/lib/assets/compiled
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/activestorage-5.2.1/app/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actionview-5.2.1/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/node_modules
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/react-source/development
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/popper_js-1.14.3/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     
+    11:     <!-- application.html.erb in Head tag below turbolinks -->
+  
+app/assets/javascripts/application.js:21
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3042524680477869796_70000946650880'
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'components' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/config
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/images
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actioncable-5.2.1/lib/assets/compiled
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/activestorage-5.2.1/app/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actionview-5.2.1/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/node_modules
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/react-source/development
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/popper_js-1.14.3/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     
+    11:     <!-- application.html.erb in Head tag below turbolinks -->
+  
+app/assets/javascripts/application.js:21
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3042524680477869796_70000946650880'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:22:11 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 243ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'components' with type 'application/javascript'
+Checked in these paths: 
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/config
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/images
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actioncable-5.2.1/lib/assets/compiled
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/activestorage-5.2.1/app/assets/javascripts
+  /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/actionview-5.2.1/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.4.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/node_modules
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/react-source/development
+  /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/popper_js-1.14.3/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.4.1/gems/bootstrap-4.1.3/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     
+    11:     <!-- application.html.erb in Head tag below turbolinks -->
+  
+app/assets/javascripts/application.js:21
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___3203636021086010763_29091380'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:26:07 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 5886ms (Views: 5883.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:26:45 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 191ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 05:27:25 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:06:11 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:06:43 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 138ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:08:13 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mLift Load (0.5ms)[0m  [1m[34mSELECT  "lifts".* FROM "lifts" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mLift Load (0.4ms)[0m  [1m[34mSELECT  "lifts".* FROM "lifts" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:24:00 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1518ms (Views: 1509.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:24:24 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:24:29 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:24:35 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:26:04 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:27:13 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 60ms (Views: 57.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:32:19 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 429ms (Views: 427.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:32:39 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 121.99.224.148 at 2018-11-11 07:33:14 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 16ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:33:41 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 1474ms (Views: 1469.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:34:39 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 147ms (Views: 146.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:41:30 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:45:18 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:45:28 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 1701ms (Views: 1697.3ms | ActiveRecord: 0.8ms)
+
+
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.1ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 121.99.224.148 at 2018-11-11 07:45:54 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 14ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:46:03 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.9ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 1544ms (Views: 1538.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:49:13 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:49:23 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 1591ms (Views: 1587.2ms | ActiveRecord: 0.8ms)
+
+
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 69ms (Views: 62.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:51:15 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.1ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 329ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:4:1: unexpected indentation):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     
+    11:     <!-- application.html.erb in Head tag below turbolinks -->
+    12:     <%= javascript_pack_tag 'application' %>
+  
+(execjs):7539:8
+(execjs):7545:14
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1019679288393175896_72745380'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:51:55 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 195ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:4:1: unexpected indentation):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     
+    11:     <!-- application.html.erb in Head tag below turbolinks -->
+    12:     <%= javascript_pack_tag 'application' %>
+  
+(execjs):7539:8
+(execjs):7545:14
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1019679288393175896_69875663135560'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:52:24 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 933ms (Views: 931.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:52:47 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/views/lifts/index.html.erb:4: syntax error, unexpected '<'
+<p>Time to rock \'n roll</p>'.f
+ ^
+/home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/views/lifts/index.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+<p>Time to rock \'n roll</p>'.freeze;
+          ^
+/home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/views/lifts/index.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/views/lifts/index.html.erb:8: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/lifts/index.html.erb:4: syntax error, unexpected '<'
+app/views/lifts/index.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/lifts/index.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/lifts/index.html.erb:8: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:53:03 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/views/lifts/index.html.erb:4: syntax error, unexpected '<'
+<p>Time to rock \'n roll</p>'.f
+ ^
+/home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/views/lifts/index.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+<p>Time to rock \'n roll</p>'.freeze;
+          ^
+/home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/views/lifts/index.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/views/lifts/index.html.erb:8: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/lifts/index.html.erb:4: syntax error, unexpected '<'
+app/views/lifts/index.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/lifts/index.html.erb:6: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/lifts/index.html.erb:8: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:53:32 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:53:46 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:54:17 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 297ms (Views: 295.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:58:49 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 268ms (Views: 267.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 07:59:53 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/views/lifts/index.html.erb:3: syntax error, unexpected '=', expecting keyword_end
+'.freeze; = react_component 'Lifts', { da
+           ^):
+  
+app/views/lifts/index.html.erb:3: syntax error, unexpected '=', expecting keyword_end
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:00:56 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:01:28 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:03:06 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:03:11 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 59ms (Views: 57.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:03:16 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.2ms)
+
+
