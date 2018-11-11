@@ -31,9 +31,11 @@
 /config/master.key
 
 # ignore bootsnap compile cache
-/tmp/cache/bootsnap-compile-cache
-/tmp/cache/bootsnap-load-path-cache
+#/tmp/cache/bootsnap-compile-cache
+#/tmp/cache/bootsnap-load-path-cache
+/tmp/cache/
 
 
 # ignore development log 
 /log/development.log
+

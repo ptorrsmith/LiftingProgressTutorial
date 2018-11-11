@@ -66,4 +66,5 @@ gem 'jquery-rails'
 
 gem 'bootstrap', '~> 4.1.3'
 
-#gem 'react-rails'
+gem 'webpacker'
+gem 'react-rails'
