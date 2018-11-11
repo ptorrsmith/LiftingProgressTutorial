@@ -1,4 +1,4 @@
-// import React from 'react'
+// // import React from 'react'
 
 // class Lifts extends React.Component {
     
@@ -6,4 +6,6 @@
 //         <p>hello from lifts</p>
 //     }    
 // }
+
+// export default Lifts
 

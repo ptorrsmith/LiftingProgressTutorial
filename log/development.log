@@ -1214,3 +1214,479 @@ Processing by LiftsController#index as HTML
 Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:06:23 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:06:38 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:07:45 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 948ms (Views: 945.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:08:17 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 958ms (Views: 955.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:09:08 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 791ms (Views: 788.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:09:36 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 282ms (Views: 280.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:12:27 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 291ms (Views: 290.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:12:53 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 292ms (Views: 291.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:13:35 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:19:49 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:4:1: unexpected indentation):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     
+    11:     <!-- application.html.erb in Head tag below turbolinks -->
+    12:     <%= javascript_pack_tag 'application' %>
+  
+(execjs):7539:8
+(execjs):7545:14
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1019679288393175896_64978360'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:21:15 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 182ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:4:1: unexpected indentation):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     
+    11:     <!-- application.html.erb in Head tag below turbolinks -->
+    12:     <%= javascript_pack_tag 'application' %>
+  
+(execjs):7539:8
+(execjs):7545:14
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1019679288393175896_68936640'
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:21:45 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 297ms (Views: 295.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:22:45 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:23:09 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 276ms (Views: 274.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:23:33 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:23:47 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 08:24:32 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 18:11:00 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/web-console-3.7.0/lib/web_console/middleware.rb:135
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 3904ms (Views: 3892.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 121.99.224.148 at 2018-11-11 18:11:08 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 9ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 18:11:13 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 18:14:44 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (11.8ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 4212ms (Views: 4208.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 18:15:37 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.1ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (9.7ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 3489ms (Views: 3486.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 18:51:48 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.1ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 18:53:27 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 18:54:57 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.1ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (9.5ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 3447ms (Views: 3444.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 18:55:50 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (4.2ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 3890ms (Views: 3888.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:01:08 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.5ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 3081ms (Views: 3078.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:12:15 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.1ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (11.0ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 3455ms (Views: 3451.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:13:48 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.3ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 3096ms (Views: 3095.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:14:12 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:14:34 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  Rendered lifts/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/app/views/lifts/index.html.erb:3: syntax error, unexpected '=', expecting keyword_end
+'.freeze; = react_component 'Lifts', { da
+           ^):
+  
+app/views/lifts/index.html.erb:3: syntax error, unexpected '=', expecting keyword_end
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:14:42 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 92ms (Views: 90.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:14:46 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:15:36 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 428ms (Views: 426.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:16:42 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (10.6ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 3146ms (Views: 3143.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:16:57 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 135ms (Views: 133.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:17:03 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:18:02 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 267ms (Views: 265.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:18:07 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:19:31 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.2ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (10.3ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 3521ms (Views: 3518.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:20:09 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.1ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (9.1ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 3465ms (Views: 3462.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:21:03 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.1ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (9.1ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 3441ms (Views: 3438.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/lifts" for 121.99.224.148 at 2018-11-11 19:21:16 +0000
+Cannot render console from 121.99.224.148! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LiftsController#index as HTML
+  Rendering lifts/index.html.erb within layouts/application
+  [1m[36mLift Load (0.1ms)[0m  [1m[34mSELECT "lifts".* FROM "lifts"[0m
+  ↳ /usr/local/rvm/gems/ruby-2.4.1/gems/react-rails-2.4.7/lib/react/rails/component_mount.rb:41
+  Rendered lifts/index.html.erb within layouts/application (9.3ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/ec2-user/environment/_ruby_on_rails_5/LiftingProgressTutorial/public/packs
+Completed 200 OK in 3453ms (Views: 3449.7ms | ActiveRecord: 0.7ms)
+
+
