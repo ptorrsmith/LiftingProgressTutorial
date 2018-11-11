@@ -1,2 +1,2 @@
-# LiftingProgressTutorial - Second attempt
+# LiftingProgressTutorial - Second attempt.
 
